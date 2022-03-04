@@ -11,6 +11,7 @@ public class Convector {
         System.out.print("Введите колличество рублей : ");
         double rub = input.nextDouble();
         double dol = rub / curs;
-        System.out.println( " Итого: " + dol + "  долларов " );
+        String result = String.format("%.2f",dol);
+        System.out.println( " Итого: " + result + "  долларов " );
     }
 }
